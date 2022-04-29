@@ -50,5 +50,33 @@ namespace BulkEmailing
             emailForm formObj = new emailForm();
             openChildForm(formObj);
         }
+
+        //email accounts button onclick method to open accounts form
+        private void emailAccountsButton_Click(object sender, EventArgs e)
+        {
+            accountsForm formObj = new accountsForm();
+            openChildForm(formObj);
+        }
+
+        //groups button onclick method to open groups form
+        private void groupsButton_Click(object sender, EventArgs e)
+        {
+            groupsForm formObj = new groupsForm();
+            openChildForm(formObj);
+        }
+
+        //user button onclick method to open users form
+        private void newUserButton_Click(object sender, EventArgs e)
+        {
+            userForm formObj = new userForm();
+            openChildForm(formObj);
+        }
+
+        //template button onclick method to open template form
+        private void newTemplateButton_Click(object sender, EventArgs e)
+        {
+            templateForm formObj = new templateForm();
+            openChildForm(formObj);
+        }
     }
 }

@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardForm));
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.newTemplateButton = new System.Windows.Forms.Button();
             this.closeButton = new System.Windows.Forms.Button();
             this.newUserButton = new System.Windows.Forms.Button();
             this.groupsButton = new System.Windows.Forms.Button();
             this.emailAccountsButton = new System.Windows.Forms.Button();
             this.sendEmailButton = new System.Windows.Forms.Button();
-            this.newTemplateButton = new System.Windows.Forms.Button();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,9 +64,31 @@
             this.panel5.Size = new System.Drawing.Size(1350, 108);
             this.panel5.TabIndex = 2;
             // 
+            // newTemplateButton
+            // 
+            this.newTemplateButton.BackColor = System.Drawing.SystemColors.Menu;
+            this.newTemplateButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.newTemplateButton.Dock = System.Windows.Forms.DockStyle.Left;
+            this.newTemplateButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Info;
+            this.newTemplateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.newTemplateButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newTemplateButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(239)))));
+            this.newTemplateButton.Image = ((System.Drawing.Image)(resources.GetObject("newTemplateButton.Image")));
+            this.newTemplateButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.newTemplateButton.Location = new System.Drawing.Point(715, 0);
+            this.newTemplateButton.Name = "newTemplateButton";
+            this.newTemplateButton.Size = new System.Drawing.Size(177, 108);
+            this.newTemplateButton.TabIndex = 5;
+            this.newTemplateButton.Text = "Create Template";
+            this.newTemplateButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.newTemplateButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.newTemplateButton.UseVisualStyleBackColor = false;
+            this.newTemplateButton.Click += new System.EventHandler(this.newTemplateButton_Click);
+            // 
             // closeButton
             // 
             this.closeButton.BackColor = System.Drawing.SystemColors.Menu;
+            this.closeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.closeButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.closeButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Info;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -86,6 +108,7 @@
             // newUserButton
             // 
             this.newUserButton.BackColor = System.Drawing.SystemColors.Menu;
+            this.newUserButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.newUserButton.Dock = System.Windows.Forms.DockStyle.Left;
             this.newUserButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Info;
             this.newUserButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -100,10 +123,12 @@
             this.newUserButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.newUserButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.newUserButton.UseVisualStyleBackColor = false;
+            this.newUserButton.Click += new System.EventHandler(this.newUserButton_Click);
             // 
             // groupsButton
             // 
             this.groupsButton.BackColor = System.Drawing.SystemColors.Menu;
+            this.groupsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.groupsButton.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupsButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Info;
             this.groupsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -118,10 +143,12 @@
             this.groupsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.groupsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.groupsButton.UseVisualStyleBackColor = false;
+            this.groupsButton.Click += new System.EventHandler(this.groupsButton_Click);
             // 
             // emailAccountsButton
             // 
             this.emailAccountsButton.BackColor = System.Drawing.SystemColors.Menu;
+            this.emailAccountsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.emailAccountsButton.Dock = System.Windows.Forms.DockStyle.Left;
             this.emailAccountsButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Info;
             this.emailAccountsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -136,10 +163,12 @@
             this.emailAccountsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.emailAccountsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.emailAccountsButton.UseVisualStyleBackColor = false;
+            this.emailAccountsButton.Click += new System.EventHandler(this.emailAccountsButton_Click);
             // 
             // sendEmailButton
             // 
             this.sendEmailButton.BackColor = System.Drawing.SystemColors.Menu;
+            this.sendEmailButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sendEmailButton.Dock = System.Windows.Forms.DockStyle.Left;
             this.sendEmailButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Info;
             this.sendEmailButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -155,25 +184,6 @@
             this.sendEmailButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.sendEmailButton.UseVisualStyleBackColor = false;
             this.sendEmailButton.Click += new System.EventHandler(this.sendEmailButton_Click);
-            // 
-            // newTemplateButton
-            // 
-            this.newTemplateButton.BackColor = System.Drawing.SystemColors.Menu;
-            this.newTemplateButton.Dock = System.Windows.Forms.DockStyle.Left;
-            this.newTemplateButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Info;
-            this.newTemplateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.newTemplateButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newTemplateButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(239)))));
-            this.newTemplateButton.Image = ((System.Drawing.Image)(resources.GetObject("newTemplateButton.Image")));
-            this.newTemplateButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.newTemplateButton.Location = new System.Drawing.Point(715, 0);
-            this.newTemplateButton.Name = "newTemplateButton";
-            this.newTemplateButton.Size = new System.Drawing.Size(177, 108);
-            this.newTemplateButton.TabIndex = 5;
-            this.newTemplateButton.Text = "Create Template";
-            this.newTemplateButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.newTemplateButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.newTemplateButton.UseVisualStyleBackColor = false;
             // 
             // DashboardForm
             // 
