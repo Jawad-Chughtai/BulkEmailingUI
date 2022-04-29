@@ -1,0 +1,10 @@
+c:\users\jaduu\documents\visual studio 2013\Projects\BulkEmailingUI\BulkEmailing\bin\Debug\BulkEmailing.exe.config
+c:\users\jaduu\documents\visual studio 2013\Projects\BulkEmailingUI\BulkEmailing\bin\Debug\BulkEmailing.exe
+c:\users\jaduu\documents\visual studio 2013\Projects\BulkEmailingUI\BulkEmailing\bin\Debug\BulkEmailing.pdb
+c:\users\jaduu\documents\visual studio 2013\Projects\BulkEmailingUI\BulkEmailing\obj\Debug\BulkEmailing.csprojResolveAssemblyReference.cache
+c:\users\jaduu\documents\visual studio 2013\Projects\BulkEmailingUI\BulkEmailing\obj\Debug\BulkEmailing.DashboardForm.resources
+c:\users\jaduu\documents\visual studio 2013\Projects\BulkEmailingUI\BulkEmailing\obj\Debug\BulkEmailing.Properties.Resources.resources
+c:\users\jaduu\documents\visual studio 2013\Projects\BulkEmailingUI\BulkEmailing\obj\Debug\BulkEmailing.csproj.GenerateResource.Cache
+c:\users\jaduu\documents\visual studio 2013\Projects\BulkEmailingUI\BulkEmailing\obj\Debug\BulkEmailing.exe
+c:\users\jaduu\documents\visual studio 2013\Projects\BulkEmailingUI\BulkEmailing\obj\Debug\BulkEmailing.pdb
+C:\Users\Jaduu\Documents\Visual Studio 2013\Projects\BulkEmailingUI\BulkEmailing\obj\Debug\BulkEmailing.emailForm.resources
