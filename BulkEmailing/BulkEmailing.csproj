@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -56,6 +57,37 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="dbConnection.cs" />
+    <Compile Include="dbEmailDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbEmailDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbEmailDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbEmailDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbEmailDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbEmailDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbEmailDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbEmailDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbEmailDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbEmailDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbEmailDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbEmailDataSet5.xsd</DependentUpon>
+    </Compile>
     <Compile Include="emailForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +108,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlConnectin.cs" />
     <Compile Include="templateForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +151,72 @@
     <EmbeddedResource Include="userForm.resx">
       <DependentUpon>userForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="dbEmailDataSet.xsc">
+      <DependentUpon>dbEmailDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbEmailDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbEmailDataSet.xss">
+      <DependentUpon>dbEmailDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet1.xsc">
+      <DependentUpon>dbEmailDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbEmailDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbEmailDataSet1.xss">
+      <DependentUpon>dbEmailDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet2.xsc">
+      <DependentUpon>dbEmailDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbEmailDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbEmailDataSet2.xss">
+      <DependentUpon>dbEmailDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet3.xsc">
+      <DependentUpon>dbEmailDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbEmailDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbEmailDataSet3.xss">
+      <DependentUpon>dbEmailDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet4.xsc">
+      <DependentUpon>dbEmailDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbEmailDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbEmailDataSet4.xss">
+      <DependentUpon>dbEmailDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet5.xsc">
+      <DependentUpon>dbEmailDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="dbEmailDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbEmailDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbEmailDataSet5.xss">
+      <DependentUpon>dbEmailDataSet5.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
